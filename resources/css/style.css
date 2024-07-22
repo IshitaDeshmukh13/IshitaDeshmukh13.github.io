@@ -1,0 +1,35 @@
+.project {
+    padding: 20px;
+    /* outline: 1px solid black; */
+    box-shadow: 0 0 2pt 2pt #a85076;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.projects {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+img {
+    text-align: left;
+    border-radius: 8px;
+    height: 200px;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.right {
+    width: 80%;
+    float: right;
+}
+
+body {
+    background-color: pink;
+}
