@@ -2,11 +2,12 @@
     display: flex;
     /* padding: 20px; */
     /* outline: 1px solid black; */
-    box-shadow: 0 0 2pt 2pt #a85076;
+    box-shadow: 0 0 2pt 2pt rgb(70, 159, 227);
     border-radius: 10px;
     margin-bottom: 20px;
     overflow: hidden;
     column-gap: 30px;
+    background-color: aliceblue;
 }
 
 .projects {
@@ -14,20 +15,37 @@
 }
 
 .project_title {
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-size: 20px;
+    font-family: 'Gill Sans', Helvetica, sans-serif;
+    font-size: 35px;
     color: black;
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
+    margin-bottom: 1%;
+    margin-top: 20px;
 }
 
 .title {
     text-align: center;
+    font-family: 'Gill Sans', Helvetica, sans-serif;
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 350;
+    font-style: italic;
+}
+
+.author {
+    text-align: center;
+    font-family: 'Gill Sans', Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-weight: 350;
 }
 
 img {
-    box-shadow: 0 0 2pt 2pt #a85076;
+    box-shadow: 0 0 2pt 2pt rgb(70, 159, 227);
     border-radius: 10px;
     height: 300px;
     width: 300px;
@@ -35,16 +53,70 @@ img {
 }
 
 body {
-    background-color: pink;
+    background-color: white;
 }
 
 .project_text {
     display: flex;
     flex-direction: column;
+    font-family: 'Gill Sans', Helvetica, sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+    flex-basis: 75%;
 }
 
 .icon_with_text {
     display: flex;
     column-gap: 2px;
     align-items: center;
+}
+
+.special_icon_with_text {
+    display: flex;
+    column-gap: 2px;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.award_icon_with_text {
+    display: flex;
+    column-gap: 2px;
+    align-items: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
+}
+
+a {
+    color: rgb(25, 138, 132);
+    font-style: normal;
+    text-decoration: none;
+}
+
+p {
+    margin: 0%;
+}
+
+.tech_stack {
+    font-weight: 600;
+}
+
+.award {
+    color: goldenrod;
+    font-style: bold;
+}
+
+.project_description {
+    font-size: 20px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+ul {
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+li {
+    font-family: 'Tahoma'
 }
